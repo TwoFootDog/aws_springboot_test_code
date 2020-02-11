@@ -10,10 +10,11 @@ phases:
     commands:
       - echo $(basename ./build/libs/*.jar)
       - pwd
-#artifacts:
-#  files:
-#    - build/libs/toy-project-0.0.1-SNAPSHOT.jar
-#  discard-paths: yes
+      - aws s3 cp echo $(basename ./build/libs/*.jar)
+artifacts:
+  files:
+    - build/libs/*.jar
+  discard-paths: yes
 cache:
   paths:
     - '/root/.gradle/caches/**/*'
