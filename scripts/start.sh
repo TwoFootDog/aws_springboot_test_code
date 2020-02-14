@@ -9,4 +9,4 @@ cp $BUILD_PATH $DEPLOY_PATH
 
 APPLICATION_JAR=$DEPLOY_PATH$JAR_NAME
 echo "> $APPLICATION_JAR 배포"    >> deploy.log
-nohup java -jar $APPLICATION_JAR >> deploy.log
+nohup java -jar $APPLICATION_JAR >> deploy.log &
