@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/edu.project.toy-project.iml" filepath="$PROJECT_DIR$/.idea/modules/edu.project.toy-project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/edu.project.toy-project.main.iml" filepath="$PROJECT_DIR$/.idea/modules/edu.project.toy-project.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/edu.project.toy-project.test.iml" filepath="$PROJECT_DIR$/.idea/modules/edu.project.toy-project.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/toy-project.iml" filepath="$PROJECT_DIR$/.idea/modules/toy-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/toy-project.main.iml" filepath="$PROJECT_DIR$/.idea/modules/toy-project.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/toy-project.test.iml" filepath="$PROJECT_DIR$/.idea/modules/toy-project.test.iml" />
     </modules>
   </component>
 </project>
