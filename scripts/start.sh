@@ -1,7 +1,7 @@
 #!/bin/bash
 BUILD_PATH=$(ls /home/ec2-user/build/*.jar)
 JAR_NAME=$(basename $BUILD_PATH)
-echo "> build 파일명: $JAR_NAME" >> test.log
+echo "> build 파일명: $JAR_NAME"
 
 echo "> build 파일 복사"
 DEPLOY_PATH=/home/ec2-user/
@@ -27,4 +27,4 @@ else
 fi
 
 echo "> $APPLICATION_JAR 배포"
-nohup java -jar $APPLICATION_JAR > /dev/null 2> /dev/null < /dev/null &
+nohup java -jar $APPLICATION_JAR >> ./deploy.log &
