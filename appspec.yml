@@ -13,6 +13,6 @@ hooks:
   # 주의 할 점은 빈칸 yml파일 특성상 빈칸 개수를 중시해야하고 Tab을 쓰면 안된다는점
   # AfterInstall앞은 2칸이다.
   ApplicationStart:
-    - location: /home/ec2-user/build/start.sh
+    - location: start.sh
       timeout: 60
       runas: ec2-user
