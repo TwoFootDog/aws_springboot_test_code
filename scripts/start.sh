@@ -8,7 +8,7 @@ DEPLOY_PATH=/home/ec2-user/
 cp $BUILD_PATH $DEPLOY_PATH
 
 echo "> 현재 실행중인 애플리케이션 pid 확인"
-CURRENT_PID=$(pgrep -f $APPLICATION_JAR_NAME)
+CURRENT_PID=$(pgrep -f $JAR_NAME)
 
 if [ -z $CURRENT_PID ]
 then
