@@ -22,3 +22,5 @@ fi
 DEPLOY_JAR=$DEPLOY_PATH$JAR_NAME
 echo "> DEPLOY_JAR 배포"    >> /home/ec2-user/deploy.log
 nohup java -jar $DEPLOY_JAR >> /home/ec2-user/deploy.log &
+
+exit 0
