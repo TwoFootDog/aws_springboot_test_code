@@ -12,7 +12,7 @@ public class MainController {
     @GetMapping("/")
     public String rootFunction() {
         logger.info("---------------------------");
-        logger.info("TEST!!!!!!!!!!!!!!!!!!!!!!!!!");
+        logger.info("TESTTEST!!!!!!!!!!!!!!!!!!!!!!!!!");
         logger.info("---------------------------");
         return "SUCCESS";
     }
