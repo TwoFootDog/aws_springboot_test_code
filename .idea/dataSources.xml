@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="gajoa_test_db1@gajoa-db1.cklyw6tgbrhb.ap-northeast-2.rds.amazonaws.com" uuid="9a667bdc-37a8-4e35-a878-4df2ea5da2de">
+    <data-source source="LOCAL" name="gajoa_test_db1@gajoa-db1.cklyw6tgbrhb.ap-northeast-2.rds.amazonaws.com" uuid="9002a1e5-e371-4a19-b107-4fd45674c882">
       <driver-ref>mariadb</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mariadb://gajoa-db1.cklyw6tgbrhb.ap-northeast-2.rds.amazonaws.com:3306/gajoa_test_db1</jdbc-url>
-      <driver-properties>
-        <property name="autoReconnect" value="true" />
-        <property name="zeroDateTimeBehavior" value="convertToNull" />
-        <property name="tinyInt1isBit" value="false" />
-        <property name="characterEncoding" value="utf8" />
-        <property name="characterSetResults" value="utf8" />
-        <property name="yearIsDateType" value="false" />
-      </driver-properties>
     </data-source>
   </component>
 </project>

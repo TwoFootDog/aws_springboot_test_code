@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="gajoa_test_db1@gajoa-db1.cklyw6tgbrhb.ap-northeast-2.rds.amazonaws.com">
-  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.14">
+  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.17">
     <root id="1">
       <ServerVersion>10.2.21</ServerVersion>
-      <Dbms>MARIADB</Dbms>
       <DefaultEngine>InnoDB</DefaultEngine>
       <DefaultCasing>exact</DefaultCasing>
     </root>
     <schema id="2" parent="1" name="gajoa_test_db1">
       <Current>1</Current>
-      <Visible>1</Visible>
       <Collation>latin1_swedish_ci</Collation>
     </schema>
     <schema id="3" parent="1" name="information_schema">
